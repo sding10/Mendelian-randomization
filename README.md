@@ -1,4 +1,4 @@
-# Mendelian-randomization
+# Mendelian Randomization
 
 This repository contains R code, simulation outputs, figures, and supplementary tables for the simulation study comparing the following Mendelian randomization methods:
 
