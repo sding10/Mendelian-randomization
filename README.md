@@ -5,8 +5,8 @@ This repository contains R code, simulation outputs, figures, and supplementary 
 * Wald
 * 2SPS
 * 2SRI
-* GMM (corrected)
-* IV-MVB (corrected)
+* GMM
+* IV-MVB
 
 The repository accompanies the methodological correction and simulation study described in the submitted Letter to the Editor.
 
@@ -42,7 +42,7 @@ source("scripts/run_all.R")
 
 ```text
 .
-├── IVMVB_simulation_main.R
+├── MR_simulation_main.R
 ├── scripts/
 │   └── run_all.R
 ├── results/
