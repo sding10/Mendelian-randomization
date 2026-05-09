@@ -1,20 +1,22 @@
 # Mendelian-randomization
 
-This repository contains R code for the simulation study comparing the following methods:
+This repository contains R code, simulation outputs, figures, and supplementary tables for the simulation study comparing the following Mendelian randomization methods:
 
 * Wald
 * 2SPS
 * 2SRI
-* GMM
-* IV-MVB
+* GMM (corrected)
+* IV-MVB (corrected)
+
+The repository accompanies the methodological correction and simulation study described in the submitted Letter to the Editor.
 
 ---
 
-## Requirements
+# Requirements
 
 R ≥ 4.4
 
-Install required packages:
+Required R packages:
 
 ```r
 install.packages(c(
@@ -26,7 +28,7 @@ install.packages(c(
 
 ---
 
-## How to Run
+# How to Run
 
 Open R and run:
 
@@ -36,34 +38,9 @@ source("scripts/run_all.R")
 
 ---
 
-## Notes
+# Repository Structure
 
-* Output (figures and tables) will be saved in:
-
-```
-results/figures/
-results/tables/
-```
-
----
-
-## Real Data Analysis (Optional)
-
-The CLEAR dataset analysis is included but **disabled by default**.
-
-To enable:
-
-```r
-run_clear_analysis <- TRUE
-```
-
-Note: The CLEAR dataset is not included in this repository.
-
----
-
-## Structure
-
-```
+```text
 .
 ├── ivmvb_simulation_main.R
 ├── scripts/
@@ -75,13 +52,24 @@ Note: The CLEAR dataset is not included in this repository.
 
 ---
 
-## Reproducibility
+# Simulation Outputs
 
-* Random seed is fixed for reproducibility.
-* All results can be regenerated from the provided scripts.
+Simulation figures and supplementary tables used in the manuscript are included in:
+
+```text
+results/figures/
+results/tables/
+```
 
 ---
 
-## Contact
+# Reproducibility
 
-For questions, please contact the authors.
+* Random seeds are fixed for reproducibility.
+* All simulation results can be regenerated using the provided scripts.
+
+---
+
+# Contact
+
+For questions regarding the code or simulations, please contact the authors.
