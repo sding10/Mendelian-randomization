@@ -1,7 +1,3 @@
-overall_start <- Sys.time()
-cat("Script started at:", format(overall_start), "\n")
-
-
 ## Packages
 library(dplyr)
 library(tidyr)
