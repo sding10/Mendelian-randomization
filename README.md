@@ -42,7 +42,7 @@ source("scripts/run_all.R")
 
 ```text
 .
-├── ivmvb_simulation_main.R
+├── IVMVB_simulation_main.R
 ├── scripts/
 │   └── run_all.R
 ├── results/
